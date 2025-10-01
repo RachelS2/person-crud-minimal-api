@@ -1,0 +1,22 @@
+# Build / VS
+bin/
+obj/
+.vs/
+*.user
+*.rsuser
+*.suo
+*.sln.docstates
+
+# SQLite local
+*.db
+*.sqlite
+
+# Configs locais
+appsettings.Development.json
+
+# Logs / caches
+*.log
+*.cache
+
+# VSCode (se usar)
+.vscode/
