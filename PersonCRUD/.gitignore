@@ -3,12 +3,16 @@
 # ===========================
 bin/
 obj/
-.vs/
+.vs/*
+
+config
+
 [Bb]uild/
 [Ll]og/
 [Tt]est[Rr]esult*/
 *.Cache
 *.dbmdl
+*.config
 
 # Arquivos temporários e de usuário
 *.user
