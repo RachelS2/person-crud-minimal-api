@@ -105,12 +105,20 @@ cd minimal-api-dotnet8
 dotnet restore
 ```
 
-3. Run the application
+3. Apply database migrations (if using Entity Framework Core)
+Migrations are not created or applied automatically when running the application.
+You must execute the following commands:
+```bash
+dotnet ef migrations add InitialCreate   # Creates the first migration (only once)
+dotnet ef database update                # Applies the migration(s) to the database
+```
+
+4. Run the application
 ```bash
 dotnet run
 ```
 
-4. Click on the link
+5. Click on the link
 Visual Studio launches a terminal window and displays the URL of the running application. The API is hosted at https://localhost:<port>, where <port> is a set of port numbers chosen randomly at project creation.
 
 ---
