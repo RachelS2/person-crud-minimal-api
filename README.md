@@ -1,6 +1,6 @@
 # Minimal API - .NET Core 8
 
-This project provides a simple **Minimal API** built with **.NET Core 8** for managing `Person` entities.  
+This project has learning purposes and provides a simple **Minimal API** built with **.NET Core 8** for managing `Person` entities.  
 The API supports creating, retrieving, updating, and deleting people in the database.
 
 ---
